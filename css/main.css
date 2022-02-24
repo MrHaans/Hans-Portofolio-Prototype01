@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Poppins:ital,wght@0,500;1,100;1,300&display=swap');
+
+/*universal style*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* reset default */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E72BD;
+}
+
+.left-side {
+    background-color: #1B212B;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.profile-img {
+    border: 3px white solid;
+    border-radius: 100%;
+}
+
+.profile-img img {
+    border-radius: 100%;
+}
+
+.profile-name {
+    margin: 10px 0;
+}
+
+.profile-name h1 {
+    color: #FFF;
+    font-size: 45px;
+    text-align: center;
+}
+
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twitter, .github {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twitter img, .github img{
+    width: 65px;
+    height: 65px;
+}
+
+.github img, .twitter img {
+    background-color: white;
+    border-radius: 100%;
+}
+
+.twitter p, .github p{
+    color: #FFF;
+    font: normal normal 300 20px 'Poppins';
+}
+
+.copyright p{
+    margin: 20px 0;
+    text-align: center;
+    color: #b3b3b3;
+    font: normal normal 200 15px 'Poppins';
+}
+
+.mid-side {
+    display: flex;
+    background-color: #EFEFEF;
+    width: 5%;
+}
+
+.mid-side img {
+    margin: auto;
+    padding: 3px;
+    width: 80%;
+}
+
+.right-side {
+    width: 75%;
+    margin: auto;
+}
+
+.right-side ul {
+    width: 500px;
+    margin: auto;
+}
+
+li a {
+    display: block;
+    padding: 18px 30px;
+    margin: 15px 0;
+    text-align: center;
+    border: 3px #EFEFEF solid;
+    border-radius: 20px;
+    color: #EFEFEF;
+    text-transform: uppercase;
+    font: normal normal 900 20px 'Poppins';
+}
+
+li a:hover {
+    background-color: #1B212B;
+    cursor: pointer;
+}
+
+strong {
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: #EFEFEF;
+    color: #1B212B;
+    padding: 3px 12px;
+    border-radius: 20px;
+}
+
+.right-side p {
+    margin-top: 50px;
+    text-align: center;
+    font: normal normal 500 20px monospace;
+}
