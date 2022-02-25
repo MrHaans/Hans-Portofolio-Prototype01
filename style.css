@@ -99,12 +99,14 @@ body {
     display: flex;
     background-color: #EFEFEF;
     width: 5%;
+    box-shadow: 5px 5px 15px #b3b3b3,
+    -5px -5px 15px #858484;
 }
 
 .mid-side img {
     margin: auto;
     padding: 3px;
-    width: 80%;
+    width: 50%;
 }
 
 .right-side {
