@@ -1,3 +1,3 @@
 # Hans Portofolio
 
-## Just create my personal portfolio.
+## Build my personal portfolio.
